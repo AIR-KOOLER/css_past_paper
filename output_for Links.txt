@@ -1,0 +1,574 @@
+{
+  '.git': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/.git/.git%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Agriculture and forestry': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Agriculture%20and%20forestry/Agriculture%20and%20forestry%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'analysis': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/analysis/analysis%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Applied Mathematics': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Applied%20Mathematics/Applied%20Mathematics%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Auditing and Accounting': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Auditing%20and%20Accounting/Auditing%20and%20Accounting%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Balochi': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Balochi/Balochi%20-%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Botany': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Botany/Botany%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'British History': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/British%20History/British%20History%20-%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Bussiness Administration': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Bussiness%20Administration/Bussiness%20Administration%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Chemistry': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Chemistry/Chemistry%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'comparitive_studies': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/comparitive_studies/comparitive_studies%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Computer Science': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Computer%20Science/Computer%20Science%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Constitutional Law': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Constitutional%20Law/Constitutional%20Law%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Criminology': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Criminology/Criminology%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'current_affairs': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/current_affairs/current_affairs%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Economics': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Economics/Economics%20-%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'English Literature': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/English%20Literature/English%20Literature%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Environmental Sciences': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Environmental%20Sciences/Environmental%20Sciences%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'essay': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/essay/essay%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Gender Studies': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Gender%20Studies/Gender%20Studies%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'gen_science': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/gen_science/gen_science%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Geography': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Geography/Geography%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Geology': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Geology/Geology%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Governance and Public Policies': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Governance%20and%20Public%20Policies/Governance%20and%20Public%20Policies%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'History of Pakistan and India': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/History%20of%20Pakistan%20and%20India/History%20of%20Pakistan%20and%20India%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'History of USA': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/History%20of%20USA/History%20of%20USA%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'International Law': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/International%20Law/International%20Law%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'International Relations': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/International%20Relations/International%20Relations%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'islamiat': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/islamiat/islamiat%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Islamic History and Culture': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Islamic%20History%20and%20Culture/Islamic%20History%20and%20Culture%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Journalism': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Journalism/Journalism%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'LAW': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/LAW/LAW%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Merchantile Law': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Merchantile%20Law/Merchantile%20Law%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Muslim Law and Jurisprudence': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Muslim%20Law%20and%20Jurisprudence/Muslim%20Law%20and%20Jurisprudence%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'pakistan_affairs': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/pakistan_affairs/pakistan_affairs%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Pashto': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Pashto/Pashto%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Persian': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Persian/Persian%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Philosophy': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Philosophy/Philosophy%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Physics': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Physics/Physics%20-%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Political Science': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Political%20Science/Political%20Science%20-%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Political_Science': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Political_Science/Political_Science%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'precis_and_composition': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/precis_and_composition/precis_and_composition%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Psychology': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Psychology/Psychology%20-%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Public Administration': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Public%20Administration/Public%20Administration%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Punjabi': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Punjabi/Punjabi%20-%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Pure Mathematics': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Pure%20Mathematics/Pure%20Mathematics%20-%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Sindhi': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Sindhi/Sindhi%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Sociology': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Sociology/Sociology%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Statistics': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Statistics/Statistics%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Town Planning and Urban Management': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Town%20Planning%20and%20Urban%20Management/Town%20Planning%20and%20Urban%20Management%20-%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Urdu Literature': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Urdu%20Literature/Urdu%20Literature%20${year}.html`
+        }
+      ];
+    })
+  ),
+  'Zoology': Object.fromEntries(
+    Array.from({ length: 2024 - 2000 + 1 }, (_, i) => {
+      const year = 2000 + i;
+      return [
+        year,
+        {
+          url: `https://raw.githubusercontent.com/AIR-KOOLER/css_past_paper/main/Zoology/Zoology%20${year}.html`
+        }
+      ];
+    })
+  )
+}
