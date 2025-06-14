@@ -5,8 +5,6 @@ import re
 GITHUB_USER = "AIR-KOOLER"
 REPO_NAME = "css_past_paper"
 BRANCH = "main"
-START_YEAR = 2000
-END_YEAR = 2024
 OUTPUT_FILE = "analysis_output.txt"
 TARGET_FOLDER = "analysis"
 
@@ -26,43 +24,37 @@ lines.append("{")  # Open the JS object
 last_subject = None
 
 for idx, file in enumerate(files):
-    # Match files like "Subject - 2024.html" or "Subject 2024.html"
-    match = re.match(r"(.+?)(?: -)? (\d{4})\.html", file)
+    full_path = os.path.join(base_path, file)
+
+    # Match files like "Subject - Summary.html" or "Subject Summary.html"
+    match = re.match(r"(.+?)(?: -)? (.+)\.html", file)
     if not match:
         print(f"⚠️ Skipping unexpected file: {file}")
         continue
 
     subject = match.group(1).strip()
-    year = match.group(2)
+    paper_summary = match.group(2).strip()
 
     # Encode folder/subject name for URL
     subject_url = url_encode_path(subject)
-    file_url = url_encode_path(file)
+    paper_url = url_encode_path(file)
 
-    if idx > 0 and subject != last_subject:
-        lines.append(f"  ),")  # close previous subject block
+    # Add the new subject to the object if it's different from the previous subject
+    if last_subject != subject:
+        if last_subject is not None:
+            lines.append("  ],")  # Close previous subject list
+        lines.append(f"  '{subject}': [")  # Start a new subject list
 
-    if idx == 0 or subject != last_subject:
-        lines.append(f"  '{subject}': Object.fromEntries(")
-        lines.append(f"    Array.from({{ length: {END_YEAR} - {START_YEAR} + 1 }}, (_, i) => {{")
-        lines.append(f"      const year = {START_YEAR} + i;")
-        
-        # Check if the filename has a dash or not
-        if " - " in file:
-            filename = f"{subject} - ${{year}}.html"
-        else:
-            filename = f"{subject} ${{year}}.html"
-        filename_url = url_encode_path(filename)
-
-        lines.append(f"      return [")
-        lines.append(f"        year,")
-        lines.append(f"        {{ url: `https://raw.githubusercontent.com/{GITHUB_USER}/{REPO_NAME}/{BRANCH}/{TARGET_FOLDER}/{filename_url}` }}")
-        lines.append(f"      ];")
-        lines.append(f"    }})")
+    # Add the paper summary link for the current subject
+    lines.append(f"    {{")
+    lines.append(f"      title: '{paper_summary}',")
+    lines.append(f"      url: `https://raw.githubusercontent.com/{GITHUB_USER}/{REPO_NAME}/{BRANCH}/{TARGET_FOLDER}/{paper_url}`")
+    lines.append(f"    }},")
 
     last_subject = subject
 
-lines.append("  )")
+# Ensure the last subject list is properly closed
+lines.append("  ]")
 lines.append("}")  # Close the JS object
 
 # Write to output
